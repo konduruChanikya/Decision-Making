@@ -1,0 +1,8 @@
+birth=int(input('Enter Year of Birth\n'))
+cur=int(input('Enter Current Year\n'))
+if cur > birth:
+    age=cur-birth
+    print(f'Your age is {age}')
+else:
+    age=(cur-birth)+100
+    print(f"Your age is {age}")
